@@ -18,3 +18,9 @@ variable "subnet_name" {
     description = "subnet name"
     
 }
+
+variable "IP_name" {
+    default = "primary_ip"
+    description = "Primary IP name"
+    
+}
