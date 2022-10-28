@@ -1,5 +1,6 @@
 # Terraform file containing resources
 # another comment added
+# Line 17 starting creating azure resources
 # again added another comment
 terraform {
   required_providers {
