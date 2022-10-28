@@ -20,3 +20,11 @@ resource "azurerm_resource_group" "rg_tf1" {
     }
 }
 
+resource "azurerm_virtualmachine" "rg_tf1" {
+    name = "local-${var.rsource_group_name}"
+    location = var.location_name
+    tags = {
+      "environment" = "dev"
+    }
+}
+
