@@ -20,3 +20,9 @@ resource "azurerm_resource_group" "rg_tf1" {
     }
 }
 
+resource "azurerm_virtual_network" "vnet_tf1" {
+    name = var.vnet_name
+    location = var.location_name
+    address_space = [ "10.0.0.1/16" ]
+    resource_group_name = var.rsource_group_name
+}
