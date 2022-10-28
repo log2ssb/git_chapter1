@@ -1,4 +1,5 @@
 # Terraform file containing resources
+# another comment added
 terraform {
   required_providers {
     azurerm={
