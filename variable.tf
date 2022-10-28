@@ -12,3 +12,9 @@ variable "location_name" {
     description = "Location name"
   
 }
+
+variable "subnet_name" {
+    default = "primary_subnet"
+    description = "subnet name"
+    
+}
