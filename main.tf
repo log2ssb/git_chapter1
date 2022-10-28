@@ -13,8 +13,8 @@ provider "azurerm" {
 
 
 resource "azurerm_resource_group" "rg_tf1" {
-    name = "git_rg"
-    location = "southIndia"
+    name = "local-${var.rsource_group_name}"
+    location = var.location_name
     tags = {
       "environment" = "dev"
     }
