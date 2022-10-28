@@ -12,3 +12,9 @@ variable "location_name" {
     description = "Location name"
   
 }
+
+variable "ip_address_name" {
+    default = "primary_ip"
+    description = "azure traffic manager IP"
+  
+}
